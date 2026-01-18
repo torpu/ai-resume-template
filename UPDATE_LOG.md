@@ -9,6 +9,7 @@
 - Replaced the default "Marcus Chen" data with "Itorpu" innovation and cloud architecture content.
 - Adjusted name casing to "iTorpu".
 - Added startup mentoring and innovation architecture content (Founders Triangle, execution, moats, AI mindset).
+- Updated title and added Twitch/Kick/Suno social links.
 
 ## 2026-01-17
 - Initialized a new git repo locally in `ai-resume-template`.

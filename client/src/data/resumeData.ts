@@ -24,13 +24,17 @@ export interface ResumeData {
     linkedin?: string;
     email?: string;
     twitter?: string;
+    twitch?: string;
+    kick?: string;
+    suno?: string;
   };
 }
 
 export const resumeData: ResumeData = {
   personal: {
     name: "iTorpu",
-    title: "Innovation & Cloud Architect",
+    title:
+      "Innovation Architect / Cloud and Development Architecture and AI Content Creator",
     bio: "Innovation architecture and multi-cloud strategy across Azure, GCP, and AWS",
     status: "10+ years in cloud architecture and digital transformation",
     initials: "iT",
@@ -102,5 +106,8 @@ export const resumeData: ResumeData = {
   },
   social: {
     // Add your real links when ready (GitHub, LinkedIn, email, Twitter).
+    twitch: "https://www.twitch.tv/itorpu",
+    kick: "https://kick.com/itorpu",
+    suno: "https://suno.com/@orp20",
   },
 };
