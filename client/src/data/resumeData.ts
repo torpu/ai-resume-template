@@ -50,17 +50,17 @@ export const resumeData: ResumeData = {
         "As Principal Innovation & Cloud Architect, I design multi-cloud strategies that balance governance with speed. I lead modernization programs that move legacy systems to cloud-native platforms while improving reliability and delivery cadence. I also establish landing zones, security baselines, and infrastructure-as-code standards to ensure repeatable, compliant deployments across Azure, GCP, and AWS.",
     },
     {
-      company: "Enterprise Clients",
-      title: "Cloud Solutions Architect",
+      company: "Startups & Innovation Labs",
+      title: "Innovation Architect & Startup Mentor",
       startYear: 2015,
       endYear: 2019,
       achievements: [
-        "Delivered hybrid-cloud strategies and migration roadmaps for regulated industries",
-        "Built DevOps pipelines to automate infrastructure and application delivery",
-        "Optimized cloud cost and performance through right-sizing and observability",
+        "Mentored founders using the Founders Triangle: idea pillar, domain depth, and distribution",
+        "Translated vision into execution (Dream -> Demand) across revenue engine, operations/admin, and marketing",
+        "Designed moat strategies: defensibility, counterpositioning, habit-forming products (iPhone, ChatGPT), proprietary data, and learning loops",
       ],
       aiContext:
-        "As a Cloud Solutions Architect, I partnered with enterprise stakeholders to shape hybrid-cloud strategies and execute migration roadmaps. I implemented DevOps automation for repeatable deployments and introduced observability practices that improved reliability. I focused on cost and performance optimization through workload right-sizing, capacity planning, and monitoring.",
+        "I mentor founders and early teams on innovation architecture using the Founders Triangle: idea pillar, domain depth, and distribution. I help translate vision into execution (Dream -> Demand) by shaping the revenue engine, operations/admin, and marketing. For defensibility, I map moats through counterpositioning, habit-forming products (iPhone, ChatGPT), proprietary data, and learning loops. My mindset is hypergrowth in an AI-driven world: the enduring value is in taste, purpose, relationships, judgment, and critical thinking.",
     },
     {
       company: "Global Systems Integrator",
@@ -86,6 +86,8 @@ export const resumeData: ResumeData = {
       "Security & Compliance",
       "DevOps & CI/CD",
       "Cost Optimization",
+      "Startup Mentoring & Founder Strategy",
+      "Product Strategy & Moat Design",
     ],
     moderate: [
       "Kubernetes & Containers",

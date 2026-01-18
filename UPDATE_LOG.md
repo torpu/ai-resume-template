@@ -8,6 +8,7 @@
 - Added `netlify.toml` and `client/public/_redirects` to fix Netlify 404s and SPA routing.
 - Replaced the default "Marcus Chen" data with "Itorpu" innovation and cloud architecture content.
 - Adjusted name casing to "iTorpu".
+- Added startup mentoring and innovation architecture content (Founders Triangle, execution, moats, AI mindset).
 
 ## 2026-01-17
 - Initialized a new git repo locally in `ai-resume-template`.
