@@ -30,6 +30,8 @@ export default function HeroSection({
       className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center pt-20 pb-10 px-4 bg-gradient-to-b from-black to-zinc-950"
     >
       <div className="pointer-events-none absolute inset-0">
+        <div className="absolute inset-0 ai-grid"></div>
+        <div className="absolute inset-0 ai-noise"></div>
         <div className="absolute -top-40 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-gradient-to-r from-cyan-500/25 via-purple-500/20 to-fuchsia-500/20 blur-3xl"></div>
         <div className="absolute bottom-[-120px] right-[-60px] h-[420px] w-[420px] rounded-full bg-gradient-to-tr from-teal-500/20 via-sky-500/15 to-violet-500/20 blur-3xl"></div>
         <div className="absolute top-24 left-8 h-32 w-32 rounded-full bg-cyan-400/20 blur-2xl"></div>
@@ -58,6 +60,8 @@ export default function HeroSection({
         >
           {name}
         </motion.h1>
+
+        <div className="ai-pulse"></div>
 
       {/* Title */}
         <motion.p
