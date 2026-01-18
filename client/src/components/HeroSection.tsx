@@ -47,7 +47,7 @@ export default function HeroSection({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        className="text-6xl md:text-7xl font-bold text-white mb-4 text-center max-w-4xl display-font"
+        className="text-6xl md:text-7xl font-bold text-white mb-4 text-center max-w-4xl display-font tracking-tight"
       >
         {name}
       </motion.h1>

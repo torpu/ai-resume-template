@@ -11,6 +11,7 @@
 - Added startup mentoring and innovation architecture content (Founders Triangle, execution, moats, AI mindset).
 - Updated title and added Twitch/Kick/Suno social links.
 - Added an AI Content Creator callout in the hero section and updated footer icons for Kick and Suno.
+- Updated typography with Space Grotesk for headings/display and Inter for body, plus tighter tracking on the hero name.
 
 ## 2026-01-17
 - Initialized a new git repo locally in `ai-resume-template`.
