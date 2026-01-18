@@ -7,6 +7,7 @@
   - Optional env: `PNPM_VERSION=10.4.1`, `NODE_VERSION=20`
 - Added `netlify.toml` and `client/public/_redirects` to fix Netlify 404s and SPA routing.
 - Replaced the default "Marcus Chen" data with "Itorpu" innovation and cloud architecture content.
+- Adjusted name casing to "iTorpu".
 
 ## 2026-01-17
 - Initialized a new git repo locally in `ai-resume-template`.

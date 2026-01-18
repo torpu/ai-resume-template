@@ -29,11 +29,11 @@ export interface ResumeData {
 
 export const resumeData: ResumeData = {
   personal: {
-    name: "Itorpu",
+    name: "iTorpu",
     title: "Innovation & Cloud Architect",
     bio: "Innovation architecture and multi-cloud strategy across Azure, GCP, and AWS",
     status: "10+ years in cloud architecture and digital transformation",
-    initials: "IT",
+    initials: "iT",
   },
   experience: [
     {
