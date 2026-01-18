@@ -6,6 +6,10 @@ export interface ResumeData {
     status: string;
     initials: string;
   };
+  creator?: {
+    headline: string;
+    blurb: string;
+  };
   experience: Array<{
     company: string;
     title: string;
@@ -38,6 +42,11 @@ export const resumeData: ResumeData = {
     bio: "Innovation architecture and multi-cloud strategy across Azure, GCP, and AWS",
     status: "10+ years in cloud architecture and digital transformation",
     initials: "iT",
+  },
+  creator: {
+    headline: "AI Content Creator",
+    blurb:
+      "I create AI-first content around innovation architecture, founder mentoring, and cloud strategy. Expect breakdowns of the Founders Triangle, Dream -> Demand execution, and moat design, plus AI music experiments. The hypergrowth mindset is simple: AI gets smarter, so human value is taste, purpose, relationships, judgment, and critical thinking.",
   },
   experience: [
     {

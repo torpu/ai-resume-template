@@ -50,6 +50,7 @@ export default function Home() {
         title={resumeData.personal.title}
         bio={resumeData.personal.bio}
         status={resumeData.personal.status}
+        creator={resumeData.creator}
         companies={companies}
         onAskAI={() => setShowChat(true)}
       />

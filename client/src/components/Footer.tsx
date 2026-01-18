@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter, Twitch, Link } from "lucide-react";
+import { Github, Linkedin, Mail, Music, Tv, Twitch, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface FooterProps {
@@ -43,12 +43,12 @@ export default function Footer({ name, title, social }: FooterProps) {
       label: "Twitch",
     },
     {
-      icon: Link,
+      icon: Tv,
       url: social?.kick,
       label: "Kick",
     },
     {
-      icon: Link,
+      icon: Music,
       url: social?.suno,
       label: "Suno",
     },

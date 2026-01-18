@@ -7,6 +7,10 @@ interface HeroSectionProps {
   title: string;
   bio: string;
   status: string;
+  creator?: {
+    headline: string;
+    blurb: string;
+  };
   companies: string[];
   onAskAI: () => void;
 }
@@ -16,6 +20,7 @@ export default function HeroSection({
   title,
   bio,
   status,
+  creator,
   companies,
   onAskAI,
 }: HeroSectionProps) {
@@ -66,6 +71,25 @@ export default function HeroSection({
       >
         {bio}
       </motion.p>
+
+      {/* AI Content Creator Callout */}
+      {creator && (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.35 }}
+          className="w-full max-w-3xl mb-10"
+        >
+          <div className="rounded-xl border border-teal-500/30 bg-zinc-900/60 px-6 py-5 text-left shadow-lg shadow-teal-500/10">
+            <p className="text-xs uppercase tracking-widest text-teal-400">
+              {creator.headline}
+            </p>
+            <p className="mt-2 text-sm md:text-base text-zinc-300">
+              {creator.blurb}
+            </p>
+          </div>
+        </motion.div>
+      )}
 
       {/* Companies */}
       {companies.length > 0 && (
