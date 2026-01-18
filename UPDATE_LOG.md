@@ -12,6 +12,7 @@
 - Updated title and added Twitch/Kick/Suno social links.
 - Added an AI Content Creator callout in the hero section and updated footer icons for Kick and Suno.
 - Updated typography with Space Grotesk for headings/display and Inter for body, plus tighter tracking on the hero name.
+- Added animated gradient text, glow, and a neon hero background for a more futuristic AI look.
 
 ## 2026-01-17
 - Initialized a new git repo locally in `ai-resume-template`.
