@@ -1,0 +1,24 @@
+## 2026-01-18
+- Successfully pushed `main` to `https://github.com/torpu/ai-resume-template.git`.
+- Ready for Netlify deploy with these settings:
+  - Base directory: (empty)
+  - Build command: `pnpm install --frozen-lockfile && pnpm build`
+  - Publish directory: `dist/public`
+  - Optional env: `PNPM_VERSION=10.4.1`, `NODE_VERSION=20`
+- Added `netlify.toml` and `client/public/_redirects` to fix Netlify 404s and SPA routing.
+
+## 2026-01-17
+- Initialized a new git repo locally in `ai-resume-template`.
+- Added all project files and created the initial commit on `main`.
+- Attempted to push to `https://github.com/torpu/ai-resume-template.git` but push failed with permission error: `Permission to torpu/ai-resume-template.git denied to countermine2992`.
+
+Next steps:
+- Push using your GitHub credentials:
+  - `cd /Volumes/externalmac/Users/chrisnon/Downloads/ai-resume-template`
+  - `git remote set-url origin https://github.com/torpu/ai-resume-template.git`
+  - `git push -u origin main`
+- After push succeeds, deploy to Netlify:
+  - Import the repo in Netlify
+  - Build command: `pnpm install --frozen-lockfile && pnpm build`
+  - Publish directory: `dist`
+  - Optional env: `PNPM_VERSION=10.4.1`, `NODE_VERSION=20`
